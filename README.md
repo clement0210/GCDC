@@ -5,15 +5,15 @@ This project is focused on providing tools for analyze your distribution of spec
 
 # Initialization
 
-1- Create your own app on Google Developer Console with Calendar API
-2- Download your credentials
-3- Rename your credentials "client_id.json" and place it on resources directory
+1. Create your own app on Google Developer Console with Calendar API
+2. Download your credentials
+3. Rename your credentials "client_id.json" and place it on resources directory
 
 # Sample
 
 ## Code 
 <code>
-DistributionChecker distributionChecker=new DistributionChecker("your_calendar_name");
+DistributionChecker distributionChecker=new DistributionChecker("your_calendar_name"); <br />
 Map<String,Number> map=distributionChecker.getNormalizedDistribution(Arrays.asList(new String[]{"event_1","event_2"});
 </code>
 
